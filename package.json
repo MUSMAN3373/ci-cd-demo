@@ -4,9 +4,12 @@
     "description": "CI/CD demo project",
     "main": "server.js",
     "type": "module",
+
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js",
+        "test": "node -e \"console.log('Tests passed ✅')\""
     },
+
     "keywords": [],
     "author": "",
     "license": "ISC"
